@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T03:51:58.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="7LufeROhtljWRZ7OkjKV" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T04:05:45.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="LHvBDGHDWkAVNj3FDkwg" version="20.4.0" type="github">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
     <mxGraphModel dx="786" dy="449" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
@@ -28,8 +28,72 @@
         <mxCell id="UHOyfvRLF857A_-6xwos-1" value="init()" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="171.00500000000002" y="609" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-3" target="UHOyfvRLF857A_-6xwos-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-3" value="main()" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="171.00500000000002" y="749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-7" target="UHOyfvRLF857A_-6xwos-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UHOyfvRLF857A_-6xwos-10">
+          <mxGeometry x="0.1867" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-7" target="UHOyfvRLF857A_-6xwos-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.505" y="1071" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-7" value="ADC采样完成？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="175.51" y="879" width="109.99" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-9" target="UHOyfvRLF857A_-6xwos-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-9" value="分析采样数据&lt;br&gt;ADC_Complete=0&lt;br&gt;开启下次采样" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="374.005" y="879" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-11" value="ADC采样（通过定时器控制采样时间区间）" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="374.005" y="1022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-18" target="UHOyfvRLF857A_-6xwos-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-18" target="UHOyfvRLF857A_-6xwos-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-18" value="是否经过30ms" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="165.26" y="1099" width="131.5" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-19" value="OLED刷新" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1097" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-25" target="UHOyfvRLF857A_-6xwos-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-25" target="UHOyfvRLF857A_-6xwos-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-25" value="是否经过1秒" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="191.01" y="1223" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-27" value="温湿度数据刷新" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UHOyfvRLF857A_-6xwos-29" target="UHOyfvRLF857A_-6xwos-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-29" value="是否经过3秒" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="191.01" y="1383" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-31" value="电池电压数据刷新" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UHOyfvRLF857A_-6xwos-33" value="ADC_Complete=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="259" y="910" width="119" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
