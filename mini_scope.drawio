@@ -1,6 +1,6 @@
-<mxfile type="github" version="20.4.0" host="app.diagrams.net" modified="2022-10-10T09:14:44.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" etag="MpraCd1gl781AaNWGcqG">
+<mxfile type="github" version="20.4.0" host="app.diagrams.net" modified="2022-10-10T09:25:51.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" etag="3Tw0CArcfHCjNmaJ-MzO">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel grid="1" dx="943" dy="827" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
+    <mxGraphModel grid="1" dx="742" dy="521" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,7 +174,7 @@
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-15" value="&lt;div&gt;ADC采样运行中？&lt;/div&gt;&lt;div&gt;B_ADC_Busy&lt;/div&gt;" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" x="351.01" y="1167" width="80" height="80" />
         </mxCell>
-        <mxCell id="TwIQ8ZYdI352qfS8hWMv-17" value="&lt;div&gt;B_Sample_OK=0&lt;/div&gt;&lt;div&gt;设置时基&lt;/div&gt;&lt;div&gt;B_ADC_Busy=1&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+        <mxCell id="TwIQ8ZYdI352qfS8hWMv-17" value="&lt;div&gt;B_Sample_OK=0&lt;/div&gt;&lt;div&gt;B_ADC_Busy=1&lt;/div&gt;&lt;div&gt;SetSampleTime()设置采样时间&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" x="331.01" y="1337" width="120" height="60" />
         </mxCell>
       </root>
