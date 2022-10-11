@@ -1,6 +1,6 @@
-<mxfile type="github" version="20.4.0" etag="_ABlq7fQPCzVT54wvjf8" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T01:26:09.749Z" host="app.diagrams.net">
+<mxfile type="github" version="20.4.0" etag="38KVvwIXE6CLhUZgArkX" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T02:37:30.168Z" host="app.diagrams.net">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="739" dx="885">
+    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="624" dx="810">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,7 +165,7 @@
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-16" value="" parent="1" edge="1" target="TwIQ8ZYdI352qfS8hWMv-15" source="TwIQ8ZYdI352qfS8hWMv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="TwIQ8ZYdI352qfS8hWMv-13" value="&lt;div&gt;是否运行中&lt;/div&gt;&lt;div&gt;B_Run&lt;/div&gt;" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+        <mxCell id="TwIQ8ZYdI352qfS8hWMv-13" value="&lt;div&gt;示波器是否运行中&lt;/div&gt;&lt;div&gt;B_Run&lt;/div&gt;" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" height="80" width="80" y="1167" x="191.01" />
         </mxCell>
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-18" value="" parent="1" edge="1" target="TwIQ8ZYdI352qfS8hWMv-17" source="TwIQ8ZYdI352qfS8hWMv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -183,10 +183,25 @@
           <mxGeometry as="geometry" height="60" width="120" y="1337" x="331.01" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-4" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-3" source="lcdHQG1R-LOQCLIEp8kP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry as="geometry" relative="1" />
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint y="1393" x="490" />
+              <mxPoint y="1393" x="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-14" value="是" parent="lcdHQG1R-LOQCLIEp8kP-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0">
+          <mxGeometry as="geometry" relative="1" y="2" x="0.2149">
+            <mxPoint as="offset" y="-13" x="5" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-11" parent="1" edge="1" target="ePAYCiFz9OMyFFIcOWC3-12" source="lcdHQG1R-LOQCLIEp8kP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
           <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-12" value="否" parent="lcdHQG1R-LOQCLIEp8kP-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0">
+          <mxGeometry as="geometry" relative="1" x="-0.3527">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-2" value="是否采样完成" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" height="80" width="80" y="1281" x="443" />
