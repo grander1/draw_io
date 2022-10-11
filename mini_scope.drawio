@@ -1,6 +1,6 @@
-<mxfile type="github" version="20.4.0" etag="HEmthCntqgiEDypHOEPC" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T03:10:22.067Z" host="app.diagrams.net">
+<mxfile type="github" version="20.4.0" etag="hREXX2OSGV59ks1Dln06" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T03:11:20.506Z" host="app.diagrams.net">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="232" dx="857">
+    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="694" dx="1765">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,8 +245,38 @@
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-20" value="&lt;div&gt;上升沿中断：判断电平，确认是哪个按键按下&lt;/div&gt;&lt;div&gt;下降沿中断：如果按下时间&amp;gt;1000ms，产生长按信号&lt;/div&gt;&lt;div&gt;&amp;gt;50ms，产生短按信号&lt;/div&gt;" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" height="60" width="120" y="1809" x="-38" />
         </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-26" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-25" source="lcdHQG1R-LOQCLIEp8kP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-28" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-27" source="lcdHQG1R-LOQCLIEp8kP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-23" value="如果A键被按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" height="80" width="80" y="1959" x="-218" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-25" value="" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="120" y="1969" x="-78" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-30" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-29" source="lcdHQG1R-LOQCLIEp8kP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-27" value="如果←键被按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="78" width="78" y="2121" x="-218" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-32" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-31" source="lcdHQG1R-LOQCLIEp8kP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-29" value="如果确认键被按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="78" width="78" y="2279" x="-218" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-34" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-33" source="lcdHQG1R-LOQCLIEp8kP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-31" value="如果→键被按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="78" width="78" y="2437" x="-218" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-33" value="如果B键被按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="78" width="78" y="2595" x="-218" />
         </mxCell>
       </root>
     </mxGraphModel>
