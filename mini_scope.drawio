@@ -1,6 +1,6 @@
-<mxfile type="github" version="20.4.0" etag="38KVvwIXE6CLhUZgArkX" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T02:37:30.168Z" host="app.diagrams.net">
+<mxfile type="github" version="20.4.0" etag="dp1W7ZO7BLtlG2tGmGK9" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063" modified="2022-10-11T02:43:42.753Z" host="app.diagrams.net">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="624" dx="810">
+    <mxGraphModel grid="1" shadow="0" math="0" background="#DAD2D8" pageHeight="1169" pageWidth="827" pageScale="1" page="0" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="7" dy="827" dx="943">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,7 +133,7 @@
           <mxGeometry as="geometry" height="80" width="80" y="1659" x="191.01" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-13" value="按键处理函数，处理单击，长按" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
-          <mxGeometry as="geometry" height="60" width="120" y="1673" x="288.24" />
+          <mxGeometry as="geometry" height="60" width="120" y="1708" x="311.01" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-15" value="" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;hachureGap=4;" vertex="1">
           <mxGeometry as="geometry" height="60" width="120" y="497" x="370.505" />
@@ -220,6 +220,15 @@
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-9" value="OscStop()采样停止" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
           <mxGeometry as="geometry" height="60" width="120" y="1631" x="423" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-17" value="" parent="1" edge="1" target="lcdHQG1R-LOQCLIEp8kP-16" source="lcdHQG1R-LOQCLIEp8kP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-15" value="按键处理函数，处理单击，长按" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="120" y="1669" x="-238" />
+        </mxCell>
+        <mxCell id="lcdHQG1R-LOQCLIEp8kP-16" value="是否有按键按下" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="80" y="1799" x="-218" />
         </mxCell>
       </root>
     </mxGraphModel>
