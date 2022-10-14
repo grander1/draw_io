@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T07:37:15.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="jUvFc4vpYRL2VzBqimYP" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T07:42:36.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="CpGozrKPsaw0s6V-UJ9p" version="20.4.0" type="github">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel dx="1012" dy="422" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="633" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,8 +182,14 @@
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="TwIQ8ZYdI352qfS8hWMv-15" target="TwIQ8ZYdI352qfS8hWMv-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="231" y="1551" />
+              <mxPoint x="140" y="1342" />
+              <mxPoint x="140" y="1342" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-7" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontColor=#393C56;labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=none;" vertex="1" connectable="0" parent="TwIQ8ZYdI352qfS8hWMv-18">
+          <mxGeometry x="-0.2412" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="TwIQ8ZYdI352qfS8hWMv-15" target="lcdHQG1R-LOQCLIEp8kP-2" edge="1">
@@ -191,25 +197,35 @@
             <mxPoint x="483" y="1484" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-8" value="N" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelPosition=left;verticalLabelPosition=middle;labelBackgroundColor=none;" vertex="1" connectable="0" parent="lcdHQG1R-LOQCLIEp8kP-1">
+          <mxGeometry x="-0.2702" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-15" value="&lt;div&gt;ADC采样运行中？&lt;/div&gt;&lt;div&gt;B_ADC_Busy&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="190.5" y="1302" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TwIQ8ZYdI352qfS8hWMv-17" value="&lt;div&gt;B_Sample_OK=0&lt;/div&gt;&lt;div&gt;B_ADC_Busy=1&lt;/div&gt;&lt;div&gt;SetSampleTime()设置采样时间&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="296.01" y="1521" width="120" height="60" as="geometry" />
+          <mxGeometry x="-21" y="1312" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0US6c-2p4XbCj-V_sGnL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="lcdHQG1R-LOQCLIEp8kP-2">
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1" source="lcdHQG1R-LOQCLIEp8kP-2" target="lcdHQG1R-LOQCLIEp8kP-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="451" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="133" y="1475" />
+              <mxPoint x="133" y="1475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontColor=#393C56;labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=none;" vertex="1" connectable="0" parent="0US6c-2p4XbCj-V_sGnL-9">
+          <mxGeometry x="-0.3313" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-2" value="是否采样完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="410.51" y="1302" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lcdHQG1R-LOQCLIEp8kP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-3" target="lcdHQG1R-LOQCLIEp8kP-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="190.5" y="1435" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-3" value="&lt;div&gt;B_ADC_Busy=0&lt;/div&gt;&lt;div&gt;ShowOscope()显示波形&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="388" y="1612" width="120" height="60" as="geometry" />
+          <mxGeometry x="-21" y="1445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-5" target="lcdHQG1R-LOQCLIEp8kP-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -230,22 +246,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-15" value="按键处理函数，处理单击，长按" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-273" y="1853" width="120" height="60" as="geometry" />
+          <mxGeometry x="-546" y="1841" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-16" target="lcdHQG1R-LOQCLIEp8kP-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-16" value="是否有按键按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="1983" width="80" height="80" as="geometry" />
+          <mxGeometry x="-526" y="1971" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-21" value="&lt;div&gt;边沿中断&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-18" target="lcdHQG1R-LOQCLIEp8kP-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-18" value="通过PCA捕获边沿触发，可以获得按键按下，抬起，以及按下时间" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-73" y="1853" width="120" height="60" as="geometry" />
+          <mxGeometry x="-346" y="1841" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-20" value="&lt;div&gt;上升沿中断：判断电平，确认是哪个按键按下&lt;/div&gt;&lt;div&gt;下降沿中断：如果按下时间&amp;gt;1000ms，产生长按信号&lt;/div&gt;&lt;div&gt;&amp;gt;50ms，产生短按信号&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-73" y="1993" width="120" height="60" as="geometry" />
+          <mxGeometry x="-346" y="1981" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-23" target="lcdHQG1R-LOQCLIEp8kP-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -254,31 +270,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-23" value="如果A键被按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="2143" width="80" height="80" as="geometry" />
+          <mxGeometry x="-526" y="2131" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-25" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-113" y="2153" width="120" height="60" as="geometry" />
+          <mxGeometry x="-386" y="2141" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-27" target="lcdHQG1R-LOQCLIEp8kP-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-27" value="如果←键被按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="2305" width="78" height="78" as="geometry" />
+          <mxGeometry x="-526" y="2293" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-29" target="lcdHQG1R-LOQCLIEp8kP-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-29" value="如果确认键被按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="2463" width="78" height="78" as="geometry" />
+          <mxGeometry x="-526" y="2451" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="lcdHQG1R-LOQCLIEp8kP-31" target="lcdHQG1R-LOQCLIEp8kP-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-31" value="如果→键被按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="2621" width="78" height="78" as="geometry" />
+          <mxGeometry x="-526" y="2609" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-33" value="如果B键被按下" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="2779" width="78" height="78" as="geometry" />
+          <mxGeometry x="-526" y="2767" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
