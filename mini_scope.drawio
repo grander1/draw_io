@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T07:49:21.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="vcEsLuDM3e0bToNrS1Ig" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T07:50:55.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="AZfPR9aCYA7oztf5JgKs" version="20.4.0" type="github">
   <diagram id="BkZl1Ah59tfYVWINneGr" name="第 1 页">
-    <mxGraphModel dx="1757" dy="660" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
+    <mxGraphModel dx="1351" dy="380" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,16 +56,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-7" value="ADC采样完成？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="143.25" y="2011" width="109.99" height="59" as="geometry" />
+          <mxGeometry x="106" y="2391" width="109.99" height="59" as="geometry" />
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="UHOyfvRLF857A_-6xwos-9" target="UHOyfvRLF857A_-6xwos-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-9" value="分析采样数据&lt;br&gt;ADC_Complete=0&lt;br&gt;开启下次采样" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="341.745" y="2011" width="120" height="60" as="geometry" />
+          <mxGeometry x="304.495" y="2391" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-11" value="ADC采样（通过定时器1控制采样时间区间）" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="341.745" y="2154" width="120" height="60" as="geometry" />
+          <mxGeometry x="304.495" y="2534" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="UHOyfvRLF857A_-6xwos-18" target="UHOyfvRLF857A_-6xwos-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry x="356.49" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UHOyfvRLF857A_-6xwos-33" value="ADC_Complete=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="226.74" y="2042" width="119" height="35" as="geometry" />
+          <mxGeometry x="189.49" y="2422" width="119" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-1" value="定时器0产生时钟OS_TICK，单位为ms" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="-14.004999999999974" y="750.5" width="120" height="60" as="geometry" />
@@ -104,10 +104,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-12" value="SW_Clicked==1?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="158.75" y="1853" width="80" height="80" as="geometry" />
+          <mxGeometry x="121.5" y="2233" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-13" value="按键处理函数，处理单击，长按" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="276.01" y="1892" width="120" height="60" as="geometry" />
+          <mxGeometry x="238.76" y="2272" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ePAYCiFz9OMyFFIcOWC3-15" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="370.505" y="497" width="120" height="60" as="geometry" />
@@ -208,6 +208,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="lcdHQG1R-LOQCLIEp8kP-2" target="0US6c-2p4XbCj-V_sGnL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lcdHQG1R-LOQCLIEp8kP-2" value="是否采样完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="190.5" y="1680" width="80" height="80" as="geometry" />
         </mxCell>
@@ -288,17 +291,19 @@
         <mxCell id="0US6c-2p4XbCj-V_sGnL-16" value="温湿度数据刷新" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="356.49" y="1235" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0US6c-2p4XbCj-V_sGnL-23" value="是否为单次模式" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="748.25" y="1785" width="80" height="80" as="geometry" />
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="0US6c-2p4XbCj-V_sGnL-23" target="0US6c-2p4XbCj-V_sGnL-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0US6c-2p4XbCj-V_sGnL-24" value="OscStop()采样停止" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="728.25" y="1897" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0US6c-2p4XbCj-V_sGnL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="748.25" y="1825" as="sourcePoint" />
-            <mxPoint x="538.9999999999998" y="1935" as="targetPoint" />
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-27" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontColor=#393C56;labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=none;" vertex="1" connectable="0" parent="0US6c-2p4XbCj-V_sGnL-26">
+          <mxGeometry x="-0.1832" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-23" value="是否为单次模式" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="190.5" y="1778" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0US6c-2p4XbCj-V_sGnL-24" value="OscStop()采样停止&lt;br&gt;B_Run=0" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1788" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
